@@ -10,6 +10,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.kotlin.pokemonapp.Adapter.PokemonTypeAdapter
 import com.kotlin.pokemonapp.Common.Common
 import com.kotlin.pokemonapp.Model.Pokemon
 
@@ -84,6 +85,12 @@ class PokemonDetail : Fragment() {
         pokemon_name.text = pokemon.name
         pokemon_weight.text = "Weight: "+pokemon.weight
         pokemon_height.text = "Height: "+pokemon.height
+
+        val typeAdapter = PokemonTypeAdapter(activity!!,pokemon.type!!)
+        recycler_type.adapter= typeAdapter
+
+        val weaknessAdapter = PokemonTypeAdapter(activity!!,pokemon.weaknesses!!)
+        recycler_weakness.adapter= weaknessAdapter
 
     }
 
