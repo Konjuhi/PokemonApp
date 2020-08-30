@@ -56,6 +56,7 @@ dependencies {
     implementation 'io.reactivex.rxjava2:rxjava:2.2.10'
 
     implementation 'com.robertlevonyan.view:MaterialChipView:1.2.4'
+    implementation 'com.github.mancj:MaterialSearchBar:0.8.2'
 
 
 

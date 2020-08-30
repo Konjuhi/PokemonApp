@@ -4,6 +4,7 @@ import android.graphics.Color
 import com.kotlin.pokemonapp.Model.Pokemon
 
 object Common {
+    val KEY_NUM_EVOLUTION = "evolution"
     var pokemonList:List<Pokemon> = ArrayList()
     var KEY_ENABLE_HOME = "position"
 

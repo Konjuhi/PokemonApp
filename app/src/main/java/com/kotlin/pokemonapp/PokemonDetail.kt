@@ -10,6 +10,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.kotlin.pokemonapp.Adapter.PokemonEvolutionAdapter
 import com.kotlin.pokemonapp.Adapter.PokemonTypeAdapter
 import com.kotlin.pokemonapp.Common.Common
 import com.kotlin.pokemonapp.Model.Pokemon
@@ -91,6 +92,16 @@ class PokemonDetail : Fragment() {
 
         val weaknessAdapter = PokemonTypeAdapter(activity!!,pokemon.weaknesses!!)
         recycler_weakness.adapter= weaknessAdapter
+
+
+        if(pokemon.prev_evolution != null) {
+            val prevEvolution = PokemonEvolutionAdapter(activity!!, pokemon.prev_evolution!!)
+            recycler_prev_evolution.adapter = prevEvolution
+        }
+        if(pokemon.next_evolution != null) {
+            val nextEvolution = PokemonEvolutionAdapter(activity!!, pokemon.next_evolution!!)
+            recycler_next_evolution.adapter = nextEvolution
+        }
 
     }
 
