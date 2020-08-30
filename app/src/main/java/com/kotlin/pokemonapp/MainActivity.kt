@@ -26,9 +26,11 @@ class MainActivity : AppCompatActivity() {
 
             //Replace Fragment
             val detailFragment:PokemonDetail = PokemonDetail.getInstance()
-            val position:Int = intent.getIntExtra("position",-1)
+            //val position:Int = intent.getIntExtra("position",-1)
+            val num = intent.getStringExtra("num")
             val bundle = Bundle()
-            bundle.putInt("position",position)
+           // bundle.putInt("position",position)
+            bundle.putString("num",num)
             detailFragment.arguments = bundle
 
             val fragmentTransaction:FragmentTransaction = supportFragmentManager.beginTransaction()
@@ -37,8 +39,9 @@ class MainActivity : AppCompatActivity() {
             fragmentTransaction.commit()
 
             //Set pokemon Name for Toolbar
-            val pokemon = Common.pokemonList[position]
-            toolbar.title = pokemon.name
+           // val pokemon = Common.pokemonList[position]
+            val pokemon = Common.findPokemonByNum(num)
+            toolbar.title = pokemon!!.name
 
         }
 

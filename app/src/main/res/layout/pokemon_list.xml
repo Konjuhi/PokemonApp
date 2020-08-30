@@ -11,6 +11,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <com.mancj.materialsearchbar.MaterialSearchBar
+            android:id="@+id/search_bar"
+            android:padding = "16dp"
+            app:mt_speechMode="false"
+            app:mt_hint="Enter your Pokemon name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/pokemon_recyclerView"
