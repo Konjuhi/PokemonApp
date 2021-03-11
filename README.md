@@ -1,8 +1,12 @@
+# goPokemon
+
 Get Information about every Pokemon
 
+# Screenshots
 
-![Screenshot_1599245904](https://user-images.githubusercontent.com/44701013/92276658-b4702980-eef1-11ea-8de7-2058c3f77c40.png)
-![Screenshot_1599245915](https://user-images.githubusercontent.com/44701013/92276659-b5a15680-eef1-11ea-8aa4-e758b24cdd87.png)
-![Screenshot_1599245923](https://user-images.githubusercontent.com/44701013/92276660-b5a15680-eef1-11ea-9ef8-08016b5c999e.png)
-![Screenshot_1599245939](https://user-images.githubusercontent.com/44701013/92276661-b639ed00-eef1-11ea-9c4e-a35943a75801.png)
-![Screenshot_1599245944](https://user-images.githubusercontent.com/44701013/92276663-b6d28380-eef1-11ea-95bc-da0fcb55de7f.png)
+![1](https://user-images.githubusercontent.com/44701013/110815939-2d7a8000-828b-11eb-9ec8-32a34fb15d0f.png)
+![2](https://user-images.githubusercontent.com/44701013/110815946-2eabad00-828b-11eb-825e-c06af2040b5a.png)
+![3](https://user-images.githubusercontent.com/44701013/110815947-2eabad00-828b-11eb-80b3-f8a04dd1db65.png)
+![5](https://user-images.githubusercontent.com/44701013/110815949-2f444380-828b-11eb-91d3-604a06c1bedf.png)
+![4](https://user-images.githubusercontent.com/44701013/110815951-2fdcda00-828b-11eb-8205-9ef4df4991d5.png)
+
